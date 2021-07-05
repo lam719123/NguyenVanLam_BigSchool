@@ -111,3 +111,4 @@ D:\TH_ltWeb\NguyenVanLam_BigShool\NguyenVanLam_BigShool\bin\NuGet.Frameworks.xml
 D:\TH_ltWeb\NguyenVanLam_BigShool\NguyenVanLam_BigShool\obj\Debug\NguyenVanLam_BigShool.Migrations.InitialModel.resources
 D:\TH_ltWeb\NguyenVanLam_BigShool\NguyenVanLam_BigShool\obj\Debug\NguyenVanLam_BigShool.csproj.GenerateResource.cache
 D:\TH_ltWeb\NguyenVanLam_BigShool\NguyenVanLam_BigShool\obj\Debug\NguyenVanLam_BigShool.Migrations.CreateTableCourse.resources
+D:\TH_ltWeb\NguyenVanLam_BigShool\NguyenVanLam_BigShool\obj\Debug\NguyenVanLam_BigShool.Migrations.PopulateCategoryTable.resources

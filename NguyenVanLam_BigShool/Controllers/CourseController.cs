@@ -6,9 +6,9 @@ using System.Web.Mvc;
 
 namespace NguyenVanLam_BigShool.Controllers
 {
-    public class CoursesController : Controller
+    public class CourseController : Controller
     {
-        // GET: Courses
+        // GET: Course
         public ActionResult Create()
         {
             return View();
