@@ -19,8 +19,7 @@ namespace NguyenVanLam_BigShool.Models
         public Category Category { get; set; }
         [Required]
         public byte CategoryId { get; set; }
-  
-
+        public object CategoryID { get; internal set; }
     }
   
 
