@@ -7,14 +7,16 @@ using System.Web;
 
 namespace NguyenVanLam_BigShool.ViewModels
 {
-    public class CourseViewModels
+    public class CourseViewModel
     {
         [Required]
         public string Place { get; set; }
         [Required]
         public string Date { get; set; }
+        string time;
         [Required]
-        public string Time { get; set; }
+        [FutureDate]
+        public string Time { get => time; set => time = value; }
         [Required]
         public byte Category { get; set; }
         public IEnumerable<Category> Categories { get; set; }

@@ -1,13 +1,13 @@
-﻿@model NguyenVanLam_BigShool.ViewModels.CourseViewModels
+﻿@model NguyenVanLam_BigShool.Models.Course
 @{
     ViewBag.Title = "Create";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 @using (Html.BeginForm("Create", "Courses"))
- {
+{
 
-            
+
     <form>
         @Html.AntiForgeryToken()
         <div class="form-group">
@@ -32,5 +32,9 @@
         </div>
         <button type="submit" value="Save" class="btn btn-primary">Save</button>
     </form>
+}
+@section scripts
+{
+    @Scripts.Render("~/bundles/jqueryval");
 }
 

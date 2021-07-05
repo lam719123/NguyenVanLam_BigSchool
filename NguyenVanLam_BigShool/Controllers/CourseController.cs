@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNet.Identity;
 using NguyenVanLam_BigShool.Models;
+using NguyenVanLam_BigShool.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
