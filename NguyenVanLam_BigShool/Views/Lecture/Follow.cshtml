@@ -1,9 +1,10 @@
 ﻿@model NguyenVanLam_BigShool.ViewModel.CoursesViewModel
 @{ ViewBag.Title = "Follow";
-  Layout = "~/Views/Shared/_Layout.cshtml"; }
+    Layout = "~/Views/Shared/_Layout.cshtml"; }
 
 <h2>Follow</h2>
 <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+>
 <div class="row">
     <ul class="course">
         @foreach (var course in Model.UpcommingCourses)
@@ -39,12 +40,14 @@
 
     </div>
 
-</li>}
+</li>
+}
 
     </ul>
     @section scripts{
 
-        <script>const { target } = require("modernizr");
+        <script>
+    const { target } = require("modernizr");
 
             $(document).ready(function () {
 
@@ -57,7 +60,7 @@
                         })
                         .fail(function () {
                             alert("Something failed");
-                         });
+                        });
 
 
                 });
@@ -81,4 +84,3 @@
 
     }
 </div>
-

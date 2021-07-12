@@ -9,7 +9,7 @@ namespace NguyenVanLam_BigShool.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = true;
+            AutomaticMigrationsEnabled = false;
         }
 
         protected override void Seed(NguyenVanLam_BigShool.Models.ApplicationDbContext context)
