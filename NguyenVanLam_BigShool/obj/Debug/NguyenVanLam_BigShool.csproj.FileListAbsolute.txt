@@ -226,7 +226,6 @@ C:\Users\DELL\OneDrive\Máy tính\NguyenVanLam_BigSchool\NguyenVanLam_BigShool\b
 C:\Users\DELL\OneDrive\Máy tính\NguyenVanLam_BigSchool\NguyenVanLam_BigShool\bin\System.Net.Http.Formatting.xml
 C:\Users\DELL\OneDrive\Máy tính\NguyenVanLam_BigSchool\NguyenVanLam_BigShool\bin\System.Web.Http.xml
 C:\Users\DELL\OneDrive\Máy tính\NguyenVanLam_BigSchool\NguyenVanLam_BigShool\bin\System.Web.Http.WebHost.xml
-C:\Users\DELL\OneDrive\Máy tính\NguyenVanLam_BigSchool\NguyenVanLam_BigShool\obj\Debug\NguyenVanLam_BigShool.csproj.AssemblyReference.cache
 C:\Users\DELL\OneDrive\Máy tính\NguyenVanLam_BigSchool\NguyenVanLam_BigShool\obj\Debug\NguyenVanLam_BigShool.Migrations.InitialModel.resources
 C:\Users\DELL\OneDrive\Máy tính\NguyenVanLam_BigSchool\NguyenVanLam_BigShool\obj\Debug\NguyenVanLam_BigShool.csproj.GenerateResource.cache
 C:\Users\DELL\OneDrive\Máy tính\NguyenVanLam_BigSchool\NguyenVanLam_BigShool\obj\Debug\NguyenVanLam_BigShool.Migrations.CreateTableCourse.resources
@@ -235,3 +234,5 @@ C:\Users\DELL\OneDrive\Máy tính\NguyenVanLam_BigSchool\NguyenVanLam_BigShool\o
 C:\Users\DELL\OneDrive\Máy tính\NguyenVanLam_BigSchool\NguyenVanLam_BigShool\obj\Debug\NguyenVanLam_BigShool.Migrations.AddFollowingsTable.resources
 C:\Users\DELL\OneDrive\Máy tính\NguyenVanLam_BigSchool\NguyenVanLam_BigShool\obj\Debug\NguyenVanLam_BigShool.Migrations.AddIsCanceledColumnToCourse.resources
 C:\Users\DELL\OneDrive\Máy tính\NguyenVanLam_BigSchool\NguyenVanLam_BigShool\obj\Debug\NguyenVanLam_BigShool.Migrations.PopulateCategoryTable.resources
+C:\Users\DELL\OneDrive\Máy tính\NguyenVanLam_BigSchool\NguyenVanLam_BigShool\obj\Debug\NguyenVanLam_BigShool.Migrations.FixFollowerId.resources
+C:\Users\DELL\OneDrive\Máy tính\NguyenVanLam_BigSchool\NguyenVanLam_BigShool\obj\Debug\NguyenVanLam_BigShool.csproj.AssemblyReference.cache

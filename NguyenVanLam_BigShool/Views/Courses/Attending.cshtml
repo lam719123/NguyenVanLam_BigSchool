@@ -1,9 +1,10 @@
 ﻿@model NguyenVanLam_BigShool.ViewModel.CoursesViewModel
-
+@using Microsoft.AspNet.Identity;
+@using NguyenVanLam_BigShool.Models;
 @{
     ViewBag.Title = "Home Page";
     Layout = "~/Views/Shared/_Layout.cshtml"; }
-}
+
 <h2>Attending</h2>
 <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
 <div class="row">
@@ -26,7 +27,7 @@
                         @course.Lecturer.Name
                         @if (Model.ShowAction)
                         {
-                            if (Model.Followings.Any(f => f.FolloweeId == course.Lecturer.Id))
+                            if (Model.Followings.Any(f => f.FolloweeId == course.Lecturer.Id ))
                             {
                                 <button data-user-id="@course.Lecturer.Id" class="btn btn-default btn-sm js-toggle-follow">Following</button> }
                             else
@@ -58,7 +59,7 @@
     </ul>
     @section scripts{
         <script>
-    $(document).ready(function () {
+            $(document).ready(function () {
                 $(".js-toggle-attendance").click(function (e) {
                     var button = $(e.target);
                     $.post("/api/Attendances", { courseId: button.attr("data-course-id") })
